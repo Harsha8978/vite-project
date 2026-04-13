@@ -1,0 +1,10 @@
+.Header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  color: white; /* Updated to white */
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+}
