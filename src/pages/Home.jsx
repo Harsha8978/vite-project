@@ -5,6 +5,7 @@ function Home() {
     <div>
       <h1>house</h1>
       <h2> details </h2>
+      <h3> cart </h3>
     </div>
   );
 }
