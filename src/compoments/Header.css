@@ -8,3 +8,28 @@
   text-align: center;
   padding-top: 25px;
 }
+
+.Header {
+  position: fixed; /* makes header stick */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.Header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Add space for content below header */
+body {
+  margin: 0;
+  padding-top: 60px; /* same as header height */
+}
